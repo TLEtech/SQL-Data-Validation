@@ -1,4 +1,4 @@
----- Created with MSSQL to give an example on a way to updated an out of date target table
+---- Created with MSSQL to give an example on a way to update an out of date target table
 ---- with up to date records from a source table. This is very generalized and not meant
 ---- for immediate use (obviously - variable names are placeholders), so if you're looking
 ---- to use this for a specific purpose, replace the generic variable names with your specific

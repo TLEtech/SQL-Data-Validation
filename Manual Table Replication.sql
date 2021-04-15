@@ -38,7 +38,7 @@ SELECT [PrimaryKey]
     WHERE [PrimaryKey] NOT IN (SELECT [PrimaryKey] FROM CTE);
  
 -- This will tell you the amount of keys flagged for insert
-SELECT COUNT([PrimaryKey]) FROM ##KeysForInsert
+SELECT COUNT([PrimaryKey]) AS InsertRecords FROM ##KeysForInsert
  
 -- Using the primary keys on the temp table as reference, this
 -- will grab all the data from the source table into another

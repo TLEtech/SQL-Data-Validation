@@ -1,5 +1,5 @@
--- SP Purpose is to check the integrity of imported data from source DB (Evolution)
--- to target DB (Sage). - TLE
+-- SP Purpose is to check the integrity of imported data from source DB (CRM)
+-- to target DB (ERP). - TLE
 -- Date Last Modified: 3-4-21
 -- 
 --Declarations
